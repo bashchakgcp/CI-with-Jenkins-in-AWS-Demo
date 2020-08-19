@@ -4,7 +4,7 @@ pipeline {
             registry = "sachinteli/sprint6dockerjenkins"
             registryCredential = 'docker-cred'
             dockerImage = ''
-		PROJECT_ID = 'My First Project'
+		PROJECT_ID = 'my-first-project'
  		CLUSTER_NAME = 'kube-demo'
  		LOCATION = 'us-central1-c'
  		CREDENTIALS_ID = 'sprint6-k8'
